@@ -18,5 +18,5 @@ mongoose.connect("mongodb://localhost:27017/authDB_signUp")
 .catch((error)=>{ console.log("DB error",error)})
 
 app.listen(PORT,()=>{
-    console.log("server is running on port "+PORT)
+    console.log("server is running on port "+ PORT)
 })

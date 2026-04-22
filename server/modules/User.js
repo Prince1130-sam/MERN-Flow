@@ -13,10 +13,11 @@ const userSchema = new mongoose.Schema({
     type: String,
     require: true,
   },
+ 
 });
 
 
 const userModel = mongoose.model("authDB_signUp", userSchema);
-export default userModel;
+export default userModel; 
 
  
